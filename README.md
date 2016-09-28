@@ -1,8 +1,8 @@
-Update the `site.conf` located in (https://github.com/WesleyCharlesBlake)[here].
+Update the `site.conf` located in [here](https://github.com/WesleyCharlesBlake/nginx-config-tester/blob/master/root/etc/nginx/conf.d/site.conf)
 
-Save,
+Save your changes.
 
-then run `docker-compose up`
+Then run `docker-compose up`
 
 If nginx has an issue with your conf, it shouldnt start, fix the directive thats broken and repeat.
 
@@ -14,4 +14,4 @@ docker exec -i -t <CONTAINERID> sh
 
 Then tail `/var/log/nginx/error.log` or `/var/log/nginx/access.log`
 
-Hope this helps!
+Hope this helpshttps://github.com/WesleyCharlesBlake/nginx-config-tester/blob/master/root/etc/nginx/conf.d/site.co your changesn
