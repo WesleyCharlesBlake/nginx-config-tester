@@ -1,0 +1,8 @@
+version: "2"
+services:
+    nginx-test:
+      build: .
+      ports:
+        - "80:80"
+      volumes:
+        - ./root/etc/nginx/conf.d/site.conf:/etc/nginx/conf.d/site.conf
